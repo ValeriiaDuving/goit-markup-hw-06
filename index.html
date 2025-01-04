@@ -43,7 +43,7 @@
           </ul>
         </nav>
         <button type="button" class="menu-btn">
-          <svg class="icon-menu-btn">
+          <svg class="icon-menu-btn" width="24" height="24">
             <use href="./images/icons.svg#icon-menu-button"></use>
           </svg>
         </button>
@@ -61,43 +61,43 @@
             </li>
           </ul>
         </address>
-      </div>
-      <div class="mobile-menu is-open">
-        <div class="container mobile-menu-container">
-          <button class="mobile-menu-close">
-            <svg class="icon-mobile-menu-close" width="8" height="8">
-              <use href="./images/icons.svg#icon-close"></use>
-            </svg>
-          </button>
-          <nav class="mobile-menu-nav">
-            <ul class="mobile-list-nav">
-              <li class="mobile-list-item">
-                <a class="mobile-link blue" href="./index.html">Studio</a>
-              </li>
-              <li class="mobile-list-item">
-                <a class="mobile-link" href="">Portfolio</a>
-              </li>
-              <li class="mobile-list-item">
-                <a class="mobile-link" href="">Contacts</a>
-              </li>
-            </ul>
-          </nav>
-          <address class="mobile-contacts">
-            <ul class="mobile-contacts-list">
-              <li class="mobile-contacts-item">
-                <a class="mobile-contacts-link" href="mailto:info@devstudio.com"
-                  >info@devstudio.com</a
-                >
-              </li>
-              <li class="mobile-contacts-item">
-                <a class="mobile-contacts-link" href="tel:+110001111111"
-                  >+11 (000) 111-11-11</a
-                >
-              </li>
-            </ul>
-          </address>
-        </div>
-        <div class="mobile-social-box">
+        <div class="mobile-menu">
+          <div class="container mobile-menu-container">
+            <button class="mobile-menu-close">
+              <svg class="icon-mobile-menu-close" width="8" height="8">
+                <use href="./images/icons.svg#icon-close"></use>
+              </svg>
+            </button>
+            <nav class="mobile-menu-nav">
+              <ul class="mobile-list-nav">
+                <li class="mobile-list-item">
+                  <a class="mobile-link blue" href="./index.html">Studio</a>
+                </li>
+                <li class="mobile-list-item">
+                  <a class="mobile-link" href="">Portfolio</a>
+                </li>
+                <li class="mobile-list-item">
+                  <a class="mobile-link" href="">Contacts</a>
+                </li>
+              </ul>
+            </nav>
+            <address class="mobile-contacts">
+              <ul class="mobile-contacts-list">
+                <li class="mobile-contacts-item">
+                  <a class="mobile-contacts-link" href="tel:+110001111111"
+                    >+11 (000) 111-11-11</a
+                  >
+                </li>
+                <li class="mobile-contacts-item">
+                  <a
+                    class="mobile-contacts-link"
+                    href="mailto:info@devstudio.com"
+                    >info@devstudio.com</a
+                  >
+                </li>
+              </ul>
+            </address>
+          </div>
           <ul class="mobile-social-list">
             <li class="mobile-social-link">
               <svg class="icon-mobile-social-link">
@@ -130,17 +130,17 @@
 
     <main class="main-page">
       <!-- #region BUTTON section -->
-      <!--        
+
       <section class="section-button">
         <div class="container">
           <h1 class="solutions">Effective Solutions for Your Business</h1>
           <button type="button" class="btn-solutions">Order Service</button>
         </div>
-      </section> -->
+      </section>
       <!-- #endregion -->
 
       <!-- #region ADVANTAGES section -->
-      <!-- <section class="section-advantages">
+      <section class="section-advantages">
         <div class="container">
           <h2 class="advantages visually-hidden">Advantages</h2>
           <ul class="advantages-list">
@@ -194,11 +194,12 @@
             </li>
           </ul>
         </div>
-      </section> -->
-      <!-- #endregion -->
+      </section>
 
-      <!-- #region TEAM section -->
-      <!-- <section class="section-team">
+      <!-- #endregion
+
+       <!- #region TEAM section  -->
+      <section class="section-team">
         <div class="container">
           <h2 class="team">Our Team</h2>
           <ul class="team-list">
@@ -352,11 +353,11 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
       <!-- #endregion -->
 
       <!-- #region PORTFOLIO section -->
-      <!-- <section class="section-portfolio">
+      <section class="section-portfolio">
         <div class="container">
           <h2 class="portfolio">Our Portfolio</h2>
           <ul class="portfolio-list">
@@ -470,12 +471,12 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
       <!-- #endregion -->
     </main>
 
     <!-- #region FOOTER -->
-    <!-- <footer class="page-footer">
+    <footer class="page-footer">
       <div class="container">
         <div class="footer-logo-box">
           <a class="logo logo-footer" href="./index.html"
@@ -540,11 +541,11 @@
           </form>
         </div>
       </div>
-    </footer> -->
+    </footer>
     <!-- #endregion -->
 
     <!-- #region BACKDROP -->
-    <!-- <div class="backdrop">
+    <div class="backdrop">
       <div class="modal">
         <button type="button" class="modal-button">
           <svg class="icon-close" width="8" height="8">
@@ -623,14 +624,16 @@
                   <use href="./images/icons.svg#icon-check"></use>
                 </svg>
               </span>
-              I accept the terms and conditions of the
-              <a class="checkbox-policy" href="#">Privacy Policy</a>
+              <span class="checkbox-agreement"
+                >I accept the terms and conditions of the
+                <a class="checkbox-policy" href="#">Privacy Policy</a>
+              </span>
             </label>
           </div>
           <button class="form-button" type="submit">Send</button>
         </form>
       </div>
-    </div> -->
+    </div>
     <!-- #endregion -->
   </body>
 </html>
