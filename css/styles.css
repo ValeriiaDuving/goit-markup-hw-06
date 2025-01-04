@@ -295,6 +295,11 @@ margin-bottom: 40px;
 color: #2e2f42;
 }
 
+.mobile-link:hover,
+.mobile-link:focus {
+color: #404bbf;
+}
+
 .mobile-contacts {
     margin-bottom: auto;
     /* margin-bottom: 48px; */
@@ -349,6 +354,12 @@ gap: 40px;
     background-size: cover;
 }
 
+@media screen and (min-width: 1200px) and (min-resolution: 192dpi) {
+    .section-button {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-in-office@2x.jpg);
+    }
+}
+
 .solutions {
     font-size: 36px;
     font-weight: 700;
@@ -388,9 +399,9 @@ gap: 40px;
         margin: 0 auto;
     }
 
-    .solutions {
-    font-size: 56px;
-    line-height: 1.07;
+.solutions {
+font-size: 56px;
+line-height: 1.07;
 letter-spacing: 0.02em;
 margin-bottom: 48px;
 max-width: 496px;
